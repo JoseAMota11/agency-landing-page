@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #ff6600;
+}
+
 @font-face {
   font-family: 'Ageo';
   src: url('/fonts/AgeoTrial-Thin.ttf') format('truetype');
@@ -54,6 +58,22 @@
   font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Ageo', 'Trebuchet MS', Arial, sans-serif;
+  padding: 2rem 4rem;
+}
+
+button {
+  font-family: 'Ageo', sans-serif;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  appearance: none;
 }
