@@ -1,0 +1,64 @@
+.our-team-card {
+  border: 2px solid #ebeaed;
+  border-radius: 12px;
+  flex: 1 0 0;
+
+  .our-team-card--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    .our-team-card--image {
+      width: 120px;
+      height: 120px;
+    }
+
+    .our-team-card--name {
+      font-size: 18px;
+      color: #1e0e62;
+      font-weight: 400;
+    }
+
+    .our-team-card--profession {
+      font-size: 12px;
+      color: #8a898e;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 500;
+    }
+  }
+
+  .our-team-card--icons-container {
+    margin-top: 4rem;
+    display: flex;
+
+    & > button {
+      flex: 1 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid #ebeaed;
+      height: 60px;
+      transition: filter 0.2s;
+    }
+
+    & > button.twitter {
+      border-right: 1px solid #ebeaed;
+    }
+
+    & > button.facebook {
+      border-right: 1px solid #ebeaed;
+      border-left: 1px solid #ebeaed;
+    }
+
+    & > button.dribbble {
+      border-left: 1px solid #ebeaed;
+    }
+
+    & > button:hover {
+      filter: brightness(0.8);
+    }
+  }
+}

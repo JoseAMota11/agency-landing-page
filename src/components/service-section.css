@@ -1,5 +1,4 @@
 .service-section {
-  width: 1200px;
   margin: 0 auto;
 
   .service-section--title {
@@ -14,14 +13,14 @@
     font-size: 52px;
   }
 
-  .service-section--card-container {
+  .service-section--cards-container {
     margin-top: 6rem;
     display: flex;
     gap: 4rem;
   }
 
   .service-section--container {
-    margin-top: 12rem;
+    margin-top: 6rem;
     display: flex;
     justify-content: space-between;
     height: 100%;

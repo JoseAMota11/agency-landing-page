@@ -12,7 +12,7 @@ function TestimonialsSection() {
       <h2 className="testimonials-section--description">
         What clients say about us
       </h2>
-      <div className="testimonials-section--card-container">
+      <div className="testimonials-section--cards-container">
         <TestimonialCard>
           <TestimonialCard.Image src={Avatar1} alt="Avatar 1" />
           <TestimonialCard.Div>

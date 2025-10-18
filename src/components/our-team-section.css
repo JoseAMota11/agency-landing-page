@@ -1,0 +1,19 @@
+.our-team-section {
+  .our-team-section--title {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #8a898e;
+  }
+
+  .our-team-section--description {
+    text-align: center;
+    font-size: 52px;
+  }
+
+  .our-team-section--cards-container {
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+  }
+}

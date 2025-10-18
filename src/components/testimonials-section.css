@@ -14,7 +14,7 @@
     font-size: 52px;
   }
 
-  .testimonials-section--card-container {
+  .testimonials-section--cards-container {
     margin-top: 6rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

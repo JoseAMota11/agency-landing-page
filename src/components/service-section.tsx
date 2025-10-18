@@ -10,7 +10,7 @@ function ServiceSection() {
     <section className="service-section">
       <h3 className="service-section--title">SERVICE</h3>
       <h2 className="service-section--description">Our Vision And Our Goal</h2>
-      <div className="service-section--card-container">
+      <div className="service-section--cards-container">
         <Card>
           <Card.Image src={Icon2} alt="Icon 2" />
           <Card.Title>Graphic Design</Card.Title>
