@@ -1,0 +1,24 @@
+.testimonials-section {
+  width: 1000px;
+  margin: 0 auto;
+
+  .testimonials-section--title {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #8a898e;
+  }
+
+  .testimonials-section--description {
+    text-align: center;
+    font-size: 52px;
+  }
+
+  .testimonials-section--card-container {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 2rem 4rem;
+  }
+}

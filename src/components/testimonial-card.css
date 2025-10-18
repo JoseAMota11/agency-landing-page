@@ -1,0 +1,25 @@
+.testimonial-card {
+  display: flex;
+  gap: 2rem;
+
+  .testimonial-card--image {
+    width: 70px;
+    height: 70px;
+  }
+  .testimonial-card--div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .testimonial-card--description {
+      font-weight: 500;
+    }
+
+    .testimonial-card--client-name {
+      color: #8a898e;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
+    }
+  }
+}

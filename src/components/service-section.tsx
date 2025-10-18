@@ -1,5 +1,5 @@
 import './service-section.css';
-import Image2 from '../assets/imagen-2.jpg';
+import Image2 from '../assets/image-2.jpg';
 import Card from './card';
 import Icon2 from '../assets/icon-2.svg';
 import Icon3 from '../assets/icon-3.svg';
