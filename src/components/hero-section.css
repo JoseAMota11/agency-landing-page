@@ -1,0 +1,37 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+
+  .hero-section--content {
+    margin-top: 2rem;
+
+    & > * {
+      margin-bottom: 2rem;
+    }
+
+    .hero-section--title {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-size: 70px;
+        line-height: 1;
+      }
+    }
+
+    .hero-section--description {
+      font-size: 22px;
+    }
+
+    .hero-section--actions {
+      display: flex;
+      gap: 2rem;
+
+      .hero-section--learn-more {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    }
+  }
+}

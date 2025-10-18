@@ -1,5 +1,6 @@
 import './navbar.css';
 import Logo from '../assets/logo.svg';
+import Button from './button';
 
 function Navbar() {
   return (
@@ -22,8 +23,8 @@ function Navbar() {
         </a>
       </div>
       <div className="navbar-actions">
-        <button className="navbar-actions--login">Log in</button>
-        <button className="navbar-actions--signup">Sign up</button>
+        <button>Log in</button>
+        <Button>Sign up</Button>
       </div>
     </nav>
   );

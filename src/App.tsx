@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="main-container">
         <HeroSection />
         <ServiceSection />
         <TestimonialsSection />

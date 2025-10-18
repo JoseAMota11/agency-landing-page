@@ -71,6 +71,9 @@ body {
 
 button {
   font-family: 'Ageo', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
   background: none;
   border: none;
   padding: 0;
