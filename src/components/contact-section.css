@@ -22,9 +22,6 @@
       justify-content: center;
       gap: 2rem;
 
-      .contact-section--paragraph {
-      }
-
       .contact-section--input {
         height: 50px;
         border-radius: 32px;

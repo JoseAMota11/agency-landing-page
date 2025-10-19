@@ -1,0 +1,38 @@
+.footer {
+  .footer--container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    .footer--logo {
+      width: 110px;
+    }
+
+    .footer--copyright {
+      color: #1e0e62;
+    }
+
+    .footer-link--container {
+      flex-grow: 1;
+      display: flex;
+      justify-content: end;
+      gap: 2rem;
+
+      .footer-link--item {
+        color: #1e0e62;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .footer--divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ebeaed;
+    margin: 2rem 0;
+  }
+
+  .footer--disclaimer {
+    color: #8a898e;
+  }
+}
