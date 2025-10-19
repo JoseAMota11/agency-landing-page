@@ -80,3 +80,9 @@ button {
   margin: 0;
   appearance: none;
 }
+
+@media (max-width: 1440px) {
+  body {
+    padding: 2rem 1rem;
+  }
+}

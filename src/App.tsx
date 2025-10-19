@@ -16,14 +16,14 @@ function App() {
     <>
       <Navbar setIsOpen={setIsOpen} />
       <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
-      {/* <main className="main-container">
+      <main className="main-container">
         <HeroSection />
-        <ServiceSection />
+        {/* <ServiceSection />
         <TestimonialsSection />
         <OurTeamSection />
-        <ContactSection />
+        <ContactSection /> */}
       </main>
-      <Footer /> */}
+      {/* <Footer /> */}
     </>
   );
 }

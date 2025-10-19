@@ -35,3 +35,45 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .hero-section {
+    .hero-section--content {
+      .hero-section--title {
+        span {
+          font-size: 50px;
+        }
+      }
+
+      .hero-section--description {
+        font-size: 18px;
+      }
+    }
+
+    .hero-section--image {
+      width: 600px;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .hero-section {
+    flex-direction: column;
+
+    .hero-section--content {
+      .hero-section--title {
+        span {
+          font-size: 60px;
+        }
+      }
+
+      .hero-section--description {
+        font-size: 22px;
+      }
+    }
+
+    .hero-section--image {
+      width: auto;
+    }
+  }
+}

@@ -38,12 +38,6 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .navbar {
-    padding: 0 1rem;
-  }
-}
-
 @media (max-width: 950px) {
   .navbar {
     .navbar-logo img {
