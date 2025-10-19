@@ -1,9 +1,11 @@
 .navbar {
+  max-width: 1200px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
   margin-bottom: 4rem;
 
-  & .navbar-header,
+  & .navbar-logo,
   .navbar-sections,
   .navbar-actions {
     flex: 1 0 0;
@@ -11,8 +13,7 @@
 
   .navbar-sections {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
 
     .navbar-sections--link {
       font-size: 18px;
@@ -30,5 +31,33 @@
     display: flex;
     justify-content: end;
     gap: 1rem;
+  }
+
+  .navbar--menu-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .navbar {
+    .navbar-logo img {
+      width: 180px;
+    }
+
+    .navbar-sections,
+    .navbar-actions {
+      display: none;
+    }
+
+    .navbar--menu-btn {
+      display: inline;
+      height: 24px;
+    }
   }
 }
