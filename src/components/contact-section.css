@@ -1,0 +1,37 @@
+.contact-section {
+  .contact-section--title {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #8a898e;
+  }
+
+  .contact-section--description {
+    text-align: center;
+    font-size: 52px;
+  }
+
+  .contact-section--content-container {
+    margin-top: 6rem;
+    display: flex;
+    gap: 4rem;
+
+    .contact-section--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+
+      .contact-section--paragraph {
+      }
+
+      .contact-section--input {
+        height: 50px;
+        border-radius: 32px;
+        border: none;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+        text-indent: 1rem;
+      }
+    }
+  }
+}

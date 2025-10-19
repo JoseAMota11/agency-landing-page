@@ -14,14 +14,26 @@ function ServiceSection() {
         <Card>
           <Card.Image src={Icon2} alt="Icon 2" />
           <Card.Title>Graphic Design</Card.Title>
+          <Card.Description>
+            We create modern and eye-catching visuals that bring your brand’s
+            identity to life and connect with your audience.
+          </Card.Description>
         </Card>
         <Card>
           <Card.Image src={Icon3} alt="Icon 3" />
           <Card.Title>Video Editing</Card.Title>
+          <Card.Description>
+            From concept to final cut, we craft engaging videos that capture
+            attention and tell your story with impact.
+          </Card.Description>
         </Card>
         <Card>
           <Card.Image src={Icon4} alt="Icon 4" />
           <Card.Title>Digital Marketing</Card.Title>
+          <Card.Description>
+            Boost your online presence with targeted campaigns designed to
+            increase visibility, engagement, and conversions.
+          </Card.Description>
         </Card>
       </div>
       <div className="service-section--container">
