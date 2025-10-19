@@ -32,3 +32,39 @@
     }
   }
 }
+
+@media (max-width: 980px) {
+  .contact-section {
+    .contact-section--description {
+      font-size: 38px;
+    }
+
+    .contact-section--content-container {
+      margin-top: 3rem;
+      gap: 0;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .contact-section {
+    .contact-section--content-container {
+      align-items: center;
+      gap: 1rem;
+
+      .contact-section--image {
+        width: 210px;
+        height: 183px;
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .contact-section {
+    .contact-section--content-container {
+      flex-direction: column;
+    }
+  }
+}

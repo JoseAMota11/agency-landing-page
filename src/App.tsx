@@ -21,7 +21,7 @@ function App() {
         <ServiceSection />
         <TestimonialsSection />
         <OurTeamSection />
-        {/* <ContactSection /> */}
+        <ContactSection />
       </main>
       {/* <Footer /> */}
     </>
