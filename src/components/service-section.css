@@ -23,7 +23,6 @@
     margin-top: 6rem;
     display: flex;
     justify-content: space-between;
-    height: 100%;
 
     & > div {
       display: flex;
@@ -59,6 +58,49 @@
         &:hover {
           filter: brightness(0.9);
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .service-section {
+    .service-section--title {
+    }
+
+    .service-section--description {
+      font-size: 38px;
+    }
+
+    .service-section--cards-container {
+      gap: 2rem;
+    }
+
+    .service-section--container {
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .service-section {
+    .service-section--title {
+    }
+
+    .service-section--description {
+    }
+
+    .service-section--cards-container {
+      margin-top: 3rem;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .service-section--container {
+      margin-top: 3rem;
+      flex-direction: column-reverse;
+
+      div button {
+        margin-top: 2rem;
       }
     }
   }

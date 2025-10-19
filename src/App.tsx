@@ -18,8 +18,8 @@ function App() {
       <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
       <main className="main-container">
         <HeroSection />
-        {/* <ServiceSection />
-        <TestimonialsSection />
+        <ServiceSection />
+        {/* <TestimonialsSection />
         <OurTeamSection />
         <ContactSection /> */}
       </main>

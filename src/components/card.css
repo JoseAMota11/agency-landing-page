@@ -23,3 +23,36 @@
     line-height: 1.5;
   }
 }
+
+@media (max-width: 1200px) {
+  .card-container {
+    .card-image {
+      width: 66px;
+      height: 66px;
+    }
+
+    .card-title {
+      font-size: 26px;
+    }
+
+    .card-description {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .card-container {
+    max-width: 500px;
+    .card-image {
+    }
+
+    .card-title {
+      font-size: 32px;
+    }
+
+    .card-description {
+      font-size: 18px;
+    }
+  }
+}
