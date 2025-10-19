@@ -20,8 +20,8 @@ function App() {
         <HeroSection />
         <ServiceSection />
         <TestimonialsSection />
-        {/* <OurTeamSection />
-        <ContactSection /> */}
+        <OurTeamSection />
+        {/* <ContactSection /> */}
       </main>
       {/* <Footer /> */}
     </>
