@@ -19,8 +19,8 @@ function App() {
       <main className="main-container">
         <HeroSection />
         <ServiceSection />
-        {/* <TestimonialsSection />
-        <OurTeamSection />
+        <TestimonialsSection />
+        {/* <OurTeamSection />
         <ContactSection /> */}
       </main>
       {/* <Footer /> */}

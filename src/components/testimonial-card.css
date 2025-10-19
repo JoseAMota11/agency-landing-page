@@ -23,3 +23,12 @@
     }
   }
 }
+
+@media (max-width: 980px) {
+  .testimonial-card {
+    .testimonial-card--div {
+      justify-content: initial;
+      gap: 1rem;
+    }
+  }
+}
