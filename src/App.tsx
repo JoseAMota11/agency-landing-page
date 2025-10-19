@@ -23,7 +23,7 @@ function App() {
         <OurTeamSection />
         <ContactSection />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
